@@ -1,0 +1,64 @@
+
+body {
+    background: linear-gradient(to right, rgb(55,55,137), rgb(99,99,157));
+}
+
+header h1, p{
+    text-align: center;
+    color: #fff;
+}
+
+#form-div {
+    width: 50%;
+    border-radius: 1%;
+    height: auto;
+    margin: auto;
+    padding: 2.5%;
+    background-color: #272746;
+    line-height: 2em;
+    
+}
+
+.options {
+    position: relative;
+    
+}
+
+label {
+    display: block;
+    color: #fff;
+}
+
+#label-Definitely {
+    position: absolute;
+    top: 0.01em;
+    left: 2em;
+    
+}
+
+#label-Maybe {
+    position: absolute;
+    top: 0.01em;
+    left: 2em;
+    
+}
+
+#label-Not_Sure {
+    position: absolute;
+    top: 0.01em;
+    left: 2em;
+    
+}
+
+.options, .check_boxes {
+    height: 2em;
+}
+
+#submit_button {
+    background-color: #3b6;
+}
+
+/*.form-group input {
+    
+}
+*/
