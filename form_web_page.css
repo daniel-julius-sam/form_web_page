@@ -1,83 +1,119 @@
 
 body {
+
     background: linear-gradient(to right, rgb(55,55,137), rgb(99,99,157));
+
 }
 
 header h1, p{
+
     text-align: center;
     color: #fff;
+
 }
 
 #form-div {
+
     width: 50%;
     border-radius: 1%;
     height: auto;
     margin: auto;
     padding: 2.5%;
     background-color: #272746;
-    
+    position: relative;
+    padding-top: 5px;
+    min-width: 500px;
     
 }
 
 .form-group {
-    margin-top: 10%;
+
+    margin-top: 2em;
+    margin-left: 30px;
+
 }
 
-.header-label {
+.header-label{
+
     margin-bottom: 3.5%;
+
 }
 .options {
-    position: relative;
+
+    margin-left: 10px;
     
 }
 
 #name-div {
+
     margin-top: 6%;
 }
 
 label {
+
     display: block;
     color: #fff;
 }
 
 #label-Definitely {
-    position: absolute;
-    top: 0.01em;
+
+    position: relative;
+    bottom: 1.2em;
     left: 2em;
     
 }
 
 #label-Maybe {
-    position: absolute;
-    top: 0.01em;
+
+    position: relative;
+    bottom: 1.2em;
     left: 2em;
-    
 }
 
 #label-Not_Sure {
-    position: absolute;
-    top: 0.01em;
+
+    position: relative;
+    bottom: 1.2em;
     left: 2em;
     
 }
 
 .options, .check_boxes {
+
     height: 2em;
+
 }
 
 #submit_button {
-    background-color: #3b6;
-}
 
-.check_boxes {
-    position: relative;
-}
-.feature-header-label {
-    position: absolute;
-    left: 2em;
-    top: 0.01em;
-}
-/*.form-group input {
+    background-color: #3b6;
+    min-width: 92%;
+    min-height: 34px;
     
 }
-*/
+
+.check_boxes input {
+    position: relative;
+    right: 45%
+
+}
+.feature-header-label {
+
+    position: relative;
+    left: 10%;
+    bottom: 60%;
+}
+
+textarea {
+
+    min-width: 92%;
+
+}
+.form-group input {
+    
+    width: 92%;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
