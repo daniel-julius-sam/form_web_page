@@ -12,18 +12,22 @@ header h1, p{
 
 }
 
+header p {
+    font-size: 1.3em;
+}
+
 #form-div {
 
     width: 50%;
-    border-radius: 1%;
+    border-radius: 5px;
     height: auto;
-    margin: auto;
+    margin:  auto;
     padding: 2.5%;
     background-color: #272746;
     position: relative;
     padding-top: 5px;
     min-width: 500px;
-    
+    font-size: 130%;
 }
 
 .form-group {
@@ -84,11 +88,14 @@ label {
 
 }
 
-#submit_button {
+#submit {
 
     background-color: #3b6;
-    min-width: 92%;
+    min-width: 94%;
     min-height: 34px;
+    font-size: 100%;
+    border-radius: 3px;
+    padding: 13px 0;
     
 }
 
@@ -100,14 +107,17 @@ label {
 .feature-header-label {
 
     position: relative;
-    left: 10%;
+    left: 5%;
     bottom: 60%;
 }
 
 textarea {
 
-    min-width: 92%;
-
+    min-width: 90%;
+    font-size: 100%;
+    padding: 2%;
+    color:#51515e;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .form-group input {
     
@@ -115,5 +125,20 @@ textarea {
     font-size: 17px;
     padding: 8px;
     border-radius: 5px;
+    color:#51515e;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.opinion-label {
+    position: relative;
+    left: 5%;
+    bottom: 62%;
+}
+
+.radio-button {
+    position: relative;
+    right: 47%;
+}
+
+
