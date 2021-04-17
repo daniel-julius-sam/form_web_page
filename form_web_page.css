@@ -96,7 +96,7 @@ label {
     font-size: 100%;
     border-radius: 3px;
     padding: 13px 0;
-    
+    color: #fff;
 }
 
 .check_boxes input {
@@ -118,6 +118,7 @@ textarea {
     padding: 2%;
     color:#51515e;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 .form-group input {
     
@@ -139,6 +140,17 @@ textarea {
 .radio-button {
     position: relative;
     right: 47%;
+}
+
+.drop-down-lists {
+
+    width: 95%;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 5px;
+    color:#7d7d80;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
